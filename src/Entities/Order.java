@@ -86,8 +86,9 @@ public class Order {
         sb.append("Order items: \n");
 
         for (OrderItem item : items) {
-            sb.append(item);
+            sb.append(item + "\n");
         }
+
         sb.append("Total price: ");
         sb.append(String.format("%.2f", total()));
 
