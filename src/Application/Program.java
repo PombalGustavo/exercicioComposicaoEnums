@@ -42,8 +42,8 @@ public class Program {
         for (int i = 1; i <= n; i++) {
             System.out.println("Enter #" + i + " item data: ");
             System.out.print("Product name : ");
+            sc.nextLine();
             String procuctName = sc.nextLine();
-            sc.next();
             System.out.print("Product price: ");
             double productPrice = sc.nextDouble();
             System.out.print("Quantity: ");
